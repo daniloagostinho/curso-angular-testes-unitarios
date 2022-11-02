@@ -1,0 +1,31 @@
+<h1>Testando requisições HTTP</h1>
+
+<button (click)="getUsers()">Fazer chamada GET</button>
+<br>
+<br>
+
+<form action="">
+  <input type="text" [(ngModel)]="name" name="name" placeholder="Digite o Nome" [ngModelOptions]="{standalone: true}">
+  <input type="text" [(ngModel)]="email" email="email" placeholder="Digite o E-mail" [ngModelOptions]="{standalone: true}">
+  <input type="text" [(ngModel)]="age" name="age" placeholder="Insira a Idade" [ngModelOptions]="{standalone: true}">
+
+  <br>
+  <br>
+  <button (click)="postUsers()">Fazer chamada POST</button>
+</form>
+
+<form action="">
+  <input type="text" [(ngModel)]="name" name="name" placeholder="Digite o Nome" [ngModelOptions]="{standalone: true}">
+  <input type="text" [(ngModel)]="email" email="email" placeholder="Digite o E-mail" [ngModelOptions]="{standalone: true}">
+  <input type="text" [(ngModel)]="age" name="age" placeholder="Insira a Idade" [ngModelOptions]="{standalone: true}">
+
+  <br>
+  <br>
+  <button (click)="putUsers(1)">Fazer chamada PUT</button>
+</form>
+
+
+<button (click)="deleteUser(2)">Fazer chamada DELETE</button>
+
+<button (click)="getUsersWithHeaders()">Fazer requisição GET com headers</button>
+

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "Marina",
+      "email": "marina@gmail.com",
+      "age": 22
+    },
+    {
+      "id": 0.18013741332928745,
+      "name": "Neide",
+      "email": "neide@gmail.com",
+      "age": "40"
+    },
+    {
+      "id": 0.7248145881997923,
+      "name": "Danilo Agostinho",
+      "email": "danilo@gmail.com",
+      "age": "30"
+    }
+  ]
+}
