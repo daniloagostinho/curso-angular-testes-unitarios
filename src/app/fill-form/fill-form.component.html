@@ -1,0 +1,8 @@
+<form>
+  <input type="text" placeholder="Digite o nome" class="inputName"
+    [(ngModel)]="name"
+    [ngModelOptions]="{standalone: true}">
+  <br>
+  <br>
+  <button (click)="fillForm()">Preencher formulário</button>
+</form>
