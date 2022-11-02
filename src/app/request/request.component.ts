@@ -46,4 +46,8 @@ export class RequestComponent implements OnInit {
   getUsersWithHeaders() {
     this.http.getUserWithHeaders().subscribe();
   }
+
+  getUsersById(id: number) {
+    this.http.getUsersById(id).subscribe();
+  }
 }

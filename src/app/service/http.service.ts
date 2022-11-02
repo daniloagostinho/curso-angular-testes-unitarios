@@ -32,4 +32,8 @@ export class HttpService {
 
     return this.http.get(`${this.url}/users`, {headers})
   }
+
+  getUsersById(id: number) {
+    return this.http.get(`${this.url}/users/${id}`)
+  }
 }
