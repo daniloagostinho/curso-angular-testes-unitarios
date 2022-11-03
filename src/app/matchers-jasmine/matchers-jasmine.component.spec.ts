@@ -100,6 +100,15 @@ describe('MatchersJasmineComponent', () => {
     }).toThrow()
   })
 
+  it('Deve testar o uso do matcher toBeGreatherThan', () => {
+    expect(10).toBeGreaterThan(1)
+  })
+
+  it('Deve testar o uso do matcher toBeLessThan', () => {
+    expect(10).toBeLessThan(20)
+  })
+
+
 });
 
 
