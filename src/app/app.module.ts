@@ -17,7 +17,8 @@ import { InputOutputComponent } from './input-output/input-output.component';
 import { AutoDetectChangeComponent } from './auto-detect-change/auto-detect-change.component';
 import { ConceptsTestsComponent } from './concepts-tests/concepts-tests.component';
 import { DebuggerTestsComponent } from './debugger-tests/debugger-tests.component';
-import { AsynchronousComponentComponent } from './asynchronous-component/asynchronous-component.component'
+import { AsynchronousComponentComponent } from './asynchronous-component/asynchronous-component.component';
+import { MatchersJasmineComponent } from './matchers-jasmine/matchers-jasmine.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AsynchronousComponentComponent } from './asynchronous-component/asynchr
     AutoDetectChangeComponent,
     ConceptsTestsComponent,
     DebuggerTestsComponent,
-    AsynchronousComponentComponent
+    AsynchronousComponentComponent,
+    MatchersJasmineComponent
   ],
   imports: [
     BrowserModule,
