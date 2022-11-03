@@ -14,7 +14,10 @@ import { FillFormComponent } from './fill-form/fill-form.component';
 
 import {ReactiveFormsModule} from '@angular/forms';
 import { InputOutputComponent } from './input-output/input-output.component';
-import { AutoDetectChangeComponent } from './auto-detect-change/auto-detect-change.component'
+import { AutoDetectChangeComponent } from './auto-detect-change/auto-detect-change.component';
+import { ConceptsTestsComponent } from './concepts-tests/concepts-tests.component';
+import { DebuggerTestsComponent } from './debugger-tests/debugger-tests.component';
+import { AsynchronousComponentComponent } from './asynchronous-component/asynchronous-component.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { AutoDetectChangeComponent } from './auto-detect-change/auto-detect-chan
     HandleEventComponent,
     FillFormComponent,
     InputOutputComponent,
-    AutoDetectChangeComponent
+    AutoDetectChangeComponent,
+    ConceptsTestsComponent,
+    DebuggerTestsComponent,
+    AsynchronousComponentComponent
   ],
   imports: [
     BrowserModule,
