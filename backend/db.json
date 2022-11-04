@@ -24,5 +24,12 @@
       "email": "danilo@gmail.com",
       "age": "30"
     }
+  ],
+  "login": [
+    {
+      "email": "danilodev.silva@gmail.com",
+      "password": "09101",
+      "id": 1
+    }
   ]
 }

@@ -1,0 +1,13 @@
+<h1>Testando se formulário é inválido</h1>
+<form action="" [formGroup]="form">
+  <input type="text" formControlName="email" placeholder="Digite o e-mail">
+  <br>
+  <br>
+  <input type="password" formControlName="password" placeholder="Digite a senha">
+  <br>
+  <br>
+  <button type="submit" [disabled]="form.invalid" class="btn-login" (click)="login()">Fazer login</button>
+</form>
+
+
+<!-- <button (click)="onClick()" >Ver status</button> -->

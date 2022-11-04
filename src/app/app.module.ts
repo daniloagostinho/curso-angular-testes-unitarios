@@ -35,6 +35,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { TestingDirectiveComponent } from './testing-directive/testing-directive.component';
 import { HoverFocusDirective } from './hover-focus.directive';
+import { FormLoginComponent } from './form-login/form-login.component';
+import { TestingRouteComponent } from './testing-route/testing-route.component';
+import { ExtratoComponent } from './extrato/extrato.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +65,10 @@ import { HoverFocusDirective } from './hover-focus.directive';
     DashboardComponent,
     LoginComponent,
     TestingDirectiveComponent,
-    HoverFocusDirective
+    HoverFocusDirective,
+    FormLoginComponent,
+    TestingRouteComponent,
+    ExtratoComponent
   ],
   imports: [
     BrowserModule,

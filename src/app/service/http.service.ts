@@ -8,6 +8,10 @@ export class HttpService {
   url = 'http://localhost:3000'
   constructor(private http: HttpClient) { }
 
+  login(payload: any) {
+    return this.http.post(`${this.url}/login`, payload)
+  }
+
   getUsers() {
     return this.http.get(`${this.url}/users`)
   }
