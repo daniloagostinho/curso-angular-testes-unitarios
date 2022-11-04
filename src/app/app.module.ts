@@ -18,7 +18,23 @@ import { AutoDetectChangeComponent } from './auto-detect-change/auto-detect-chan
 import { ConceptsTestsComponent } from './concepts-tests/concepts-tests.component';
 import { DebuggerTestsComponent } from './debugger-tests/debugger-tests.component';
 import { AsynchronousComponentComponent } from './asynchronous-component/asynchronous-component.component';
-import { MatchersJasmineComponent } from './matchers-jasmine/matchers-jasmine.component'
+import { MatchersJasmineComponent } from './matchers-jasmine/matchers-jasmine.component';
+import { MockServiceComponent } from './mock-service/mock-service.component';
+import { StubServiceComponent } from './stub-service/stub-service.component';
+import { StubComponent } from './stub/stub.component';
+import { HomeComponent } from './home/home.component';
+import { SpyonComponent } from './spyon/spyon.component';
+import { FixProblemsComponent } from './fix-problems/fix-problems.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+
+import {MatDialogModule} from '@angular/material/dialog';
+import { FixedPipe } from './fixed.pipe';
+import { HttpPipe } from './http.pipe';
+import { TestingPipesDirectiveRouteComponent } from './testing-pipes-directive-route/testing-pipes-directive-route.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginComponent } from './login/login.component';
+import { TestingDirectiveComponent } from './testing-directive/testing-directive.component';
+import { HoverFocusDirective } from './hover-focus.directive';
 
 @NgModule({
   declarations: [
@@ -33,14 +49,29 @@ import { MatchersJasmineComponent } from './matchers-jasmine/matchers-jasmine.co
     ConceptsTestsComponent,
     DebuggerTestsComponent,
     AsynchronousComponentComponent,
-    MatchersJasmineComponent
+    MatchersJasmineComponent,
+    MockServiceComponent,
+    StubServiceComponent,
+    StubComponent,
+    HomeComponent,
+    SpyonComponent,
+    FixProblemsComponent,
+    FixedPipe,
+    HttpPipe,
+    TestingPipesDirectiveRouteComponent,
+    DashboardComponent,
+    LoginComponent,
+    TestingDirectiveComponent,
+    HoverFocusDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
