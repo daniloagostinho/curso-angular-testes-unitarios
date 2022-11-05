@@ -19,7 +19,31 @@ describe('HttpService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+  it('Deve realizar login', () => {
+    const response = [
+      {
+        "id": 1,
+        "name": "Danilo",
+        "email": "danilo@gmail.com",
+        "age": 30
+      }
+    ];
+    const user = {
+      "name": "Danilo",
+      "email": "danilo@gmail.com",
+      "age": 30
+    }
+    service.login(user).subscribe()
+    const request = htppTestingController.expectOne(`${url}/login`)
+    service.login(user).subscribe(res => {
+      expect(res).toBe(response)
+    })
 
+    expect(request.request.method).toBe('POST')
+    expect(request.request.url).toBe(`${url}/login`)
+    request.flush(response)
+
+  })
   it('Deve realizar chamada GET por id', () => {
     const id = 3;
     const response = {name: 'Danilo', email: 'danilo@gmail.com', age: 30}
@@ -31,6 +55,7 @@ describe('HttpService', () => {
 
     expect(request.request.method).toBe('GET')
     expect(request.request.url).toBe(`${url}/users/${id}`)
+
     request.flush(response)
 
   })
@@ -68,6 +93,46 @@ describe('HttpService', () => {
 
   })
 
+  it('Deve realizar chamada GET com headers para obter usuarios', () => {
+    const response = [
+      {
+        "id": 1,
+        "name": "Carlos",
+        "email": "carlos@gmail.com",
+        "age": 30
+      },
+      {
+        "id": 2,
+        "name": "Julia",
+        "email": "julia@gmail.com",
+        "age": 18
+      },
+      {
+        "id": 3,
+        "name": "Marina",
+        "email": "marina@gmail.com",
+        "age": 22
+      }
+    ];
+    service.getUsersWithPromise().then(() => {});
+    const request = htppTestingController.expectOne(`${url}/users`)
+    service.getUsersWithPromise().then(res => {
+      expect(res).toBe(response)
+    })
+
+    expect(request.request.method).toBe('GET')
+    expect(request.request.url).toBe(`${url}/users`)
+    request.flush(response)
+
+  })
+  it('Deve retornar que usuario esta autenticado', () => {
+    const response = true;
+    service.isAuthenticated().then(() => {});
+    service.isAuthenticated().then(res => {
+      expect(res).toBe(response)
+    })
+
+  })
   it('Deve gerar erro ao obter usuarios', () => {
     service.getUsers().subscribe({
       error: (erro) => {

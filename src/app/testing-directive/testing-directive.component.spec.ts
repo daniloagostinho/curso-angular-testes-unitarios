@@ -24,7 +24,7 @@ describe('TestingDirectiveComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('Deve alterar background quando passar o ouse sobre o title', () => {
+  it('Deve alterar background quando passar o mouse sobre o title', () => {
     const title = fixture.debugElement.query(By.css('h1'))
 
     title.triggerEventHandler('mouseover', null)

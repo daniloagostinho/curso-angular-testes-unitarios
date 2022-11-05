@@ -1,27 +1,126 @@
-# CursoAngularTestesUnitarios
+# Projeto do curso de Testes Unitários com Angular / Jasmine e Karma. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+## Grade curricular
 
-## Development server
+## Seção 1
+### Introdução ao curso
+ - Introdução.
+ - Apresentação do curso.
+ - Como aproveitar aproveitar o máximo do curso.
+ 
+ ## Seção 2
+ ### Testes unitários no Angular.
+ - A importancia do Teste de Software.
+ - O que é Jasmine e Karma.
+ - O que testar em uma aplicação Angular
+- Teste de integração x Teste de Unidade.
+- Cobertura de Testes (code coverage).
+ 
+ ## Seção 3
+### Conceito de uma suíte de testes no Angular
+- Suíte de testes - describe.
+- Especificações de estes - it.
+- Antes de cada teste - beforeEach.
+- Após cada teste - afterEach.
+- Antes de todos - beforeAll.
+- Configurando os módulos dos testes- TestBeb
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ ## Seção 4
+ ### Criando o projeto com Angular CLI
+ - Instalação do Nodejs.
+ - Instalando o Angular CLI.
+ - Instalando o Visual Studio Code.
+ - Criando o projeto com Angular CLI.
+ - Rodando a aplicação no navegador.
+ - Executando os testes.
 
-## Code scaffolding
+## Seção 5
+### Resolvendo problemas comuns em uma aplicação
+- Erro ao trabalhar com requisições - No provider for HttpClient!
+- Erro modal Angular material - No provider for MatDialog!
+- Erro ao trabalhar com formularios - No provider for FormBuilder!
+- Erro ao trabalhar com ngModel - No provider for NgControl found in NodeInjector.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Seção 6
+### Debugando os testes
+- Focando em um único teste - fdescribe.
+- Focando em uma única especificação - fit.
+- Rodando os testes de um único arquivo - ng test --include.
+- Adicionando breakpoints.
+- Utilizando debugger.
+- Contexto de Debugger do Jasmine.
 
-## Build
+## Seção 7
+### Testando expectativas - Jasmine Matchers
+- Verificando se os valores são iguais - toEqual.
+- Verificando se os valores são iguais e do mesmo objeto - toBe.
+- Testando se um valor é truthy - toBeTruthy.
+- Testando se um valor é falsy - toBeFalsy.
+- Verificando se um valor é true - toBeTrue.
+- Verificando se um valor é falso -  toBeFalse.
+- Testando se um valor não é true - not.
+- Verificando se um valor esta contido em um array ou string - toContain.
+- Verificando se um valor foi definido - toBeDefined.
+- Verificando se um valor não foi definido - toBeUndefined.
+- Testando se um valor é nulo - toBeNull.
+- Testando se um valor é NaN  - toBeNaN.
+- Verificando se um valor é maior do que outro - toBeGreatherThan.
+- Testando se um valor é menor do que outro - toBeLessThan.
+- Verificando se um numero está próximo a outro - toBeCloseTo.
+- Testando se um valor é igual com base em uma expressão regular - toMatch.
+- Verificando se uma funcão lançou um erro - toThrow.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Seção 8
+### Mockando métodos de componentes e serviços
+- Mockando métodos de serviço com Mocks.
+- Mockando métodos de serviços com Stubs.
+- Espionando métodos de componentes com spyOn.
+- Espionando métodos de serviços com spyOn.
+- Criando objetos com createSpy.
+- Mockando métodos com createSpyObj.
 
-## Running unit tests
+## Seção 9
+### Testando chamadas HTTP
+- Testando requisição GET por ID.
+- Testando requisição GET.
+- Testando erro na requisição.
+- Testando requisição POST.
+- Testando requisição PUT.
+- Testando requisição DELETE.
+- Testando se headers foram passados na requisição.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Seção 10
+### Testando código Assíncrono
+- Testando subscribe.
+- Testando promises.
+- Utilizando done função.
+- Async e WhenStable.
+- FakeAsync e Tick.
 
-## Running end-to-end tests
+## Seção 11
+### Testando componentes
+- Acessando a DOM com debugElement.query() e nativeElement.querySelector().
+- Detecção de alterações manual - fixture.detectChanges().
+- Detecção automática de alterações.
+- Disparando click no botão com triggerEventHandler.
+- Preenchendo formulários disparando evento Input.
+- Testando Entradas e Saídas - @Input e @Output.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Seção 12
+### Testando Pipes, Guardas de Rotas, Rotas e Directivas
+- Testando pipes.
+- Testando guarda de rota.
+- Testando rotas.
+- Testando diretivas.
 
-## Further help
+## Seção 13
+### Bônus - Testando formulários
+- Testando se formulário é inválido.
+- Testando se formulário é válido.
+- Testando se o botão está desabilitado quando formulário for inválido.
+- Testando se um botão está habilitado quando formulário for válido.
+- Criando método para retornar um campo do formulário.
+- Criando método para criar dados (payload) para submeter pro servidor.
+- Submetendo dados do formulário.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este curso pode ser adquirido clicando [aqui](https://www.udemy.com/course/draft/4951302/?instructorPreviewMode=guest).

@@ -28,7 +28,6 @@ import { FixProblemsComponent } from './fix-problems/fix-problems.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 import {MatDialogModule} from '@angular/material/dialog';
-import { FixedPipe } from './fixed.pipe';
 import { HttpPipe } from './http.pipe';
 import { TestingPipesDirectiveRouteComponent } from './testing-pipes-directive-route/testing-pipes-directive-route.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -38,6 +37,7 @@ import { HoverFocusDirective } from './hover-focus.directive';
 import { FormLoginComponent } from './form-login/form-login.component';
 import { TestingRouteComponent } from './testing-route/testing-route.component';
 import { ExtratoComponent } from './extrato/extrato.component';
+import { IntegrationUnitTestingComponent } from './integration-unit-testing/integration-unit-testing.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +59,6 @@ import { ExtratoComponent } from './extrato/extrato.component';
     HomeComponent,
     SpyonComponent,
     FixProblemsComponent,
-    FixedPipe,
     HttpPipe,
     TestingPipesDirectiveRouteComponent,
     DashboardComponent,
@@ -68,7 +67,8 @@ import { ExtratoComponent } from './extrato/extrato.component';
     HoverFocusDirective,
     FormLoginComponent,
     TestingRouteComponent,
-    ExtratoComponent
+    ExtratoComponent,
+    IntegrationUnitTestingComponent
   ],
   imports: [
     BrowserModule,

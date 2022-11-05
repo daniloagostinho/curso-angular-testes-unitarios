@@ -33,4 +33,13 @@ describe('FillFormComponent', () => {
     expect(input.value).toBe('Danilo')
   })
 
+  it('Deve preencher formulário', () => {
+    component.name = 'Danilo'
+    component.fillForm()
+
+    fixture.detectChanges();
+
+    expect(component.form.controls['name'].value).toBeDefined();
+  })
+
 });

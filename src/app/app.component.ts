@@ -21,8 +21,9 @@ export class AppComponent implements OnInit  {
     console.log('Mensagem do filho: ', event)
   }
 
-  goTo() {
-    this.router.navigate(['/dashboard'])
+  goTo(route: string) {
+    this.router.navigate([`/${route}`])
   }
+
 
 }
