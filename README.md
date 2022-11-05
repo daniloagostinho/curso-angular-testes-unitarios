@@ -1,6 +1,6 @@
 # Projeto do curso de Testes Unitários com Angular / Jasmine e Karma. 
 
-## Grade curricular
+**Grade curricular**
 
 ## Seção 1
 ### Introdução ao curso
