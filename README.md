@@ -123,4 +123,4 @@
 - Criando método para criar dados (payload) para submeter pro servidor.
 - Submetendo dados do formulário.
 
-Este curso pode ser adquirido clicando [aqui](https://www.udemy.com/course/draft/4951302/?instructorPreviewMode=guest).
+Este curso pode ser adquirido clicando [aqui](https://www.udemy.com/course/testes-unitarios-com-angular-14-jasmine-e-karma/?referralCode=8827BDAD28D3B528137A).
