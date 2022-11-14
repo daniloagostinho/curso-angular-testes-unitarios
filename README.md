@@ -1,5 +1,37 @@
 # Projeto do curso de Testes Unitários com Angular / Jasmine e Karma. 
 
+### Clonando e configurando
+ Abra o prompt de comando e cole o código abaixo:
+ 
+ ```
+ git clone git@github.com:daniloagostinho/curso-angular-testes-unitarios.git
+```
+
+Entre na pasta do projeto
+
+```
+ cd curso-angular-testes-unitarios
+```
+
+e instale as dependências
+
+```
+ npm i
+```
+
+### Rodando a api
+Parar iniciar o servidor com a api rode o comando abaixo:
+
+```
+ ng serve
+```
+
+a api estara disponivel no endereço:
+
+```
+ localhost:4200
+```
+
 **Grade curricular**
 
 ## Seção 1
