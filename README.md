@@ -20,7 +20,7 @@ e instale as dependências
 ```
 
 ### Rodando a api
-Parar iniciar o servidor com a api rode o comando abaixo:
+Parar iniciar o servidor com a aplicação funcionando digite o comando abaixo:
 
 ```
  ng serve
