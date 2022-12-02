@@ -146,7 +146,7 @@ a aplicação estara disponível no endereço:
 - Testando diretivas.
 
 ## Seção 13
-### Bônus - Testando formulários
+### Testando formulários
 - Testando se formulário é inválido;
 - Testando se formulário é válido;
 - Testando se o botão está desabilitado quando formulário for inválido;
@@ -154,5 +154,9 @@ a aplicação estara disponível no endereço:
 - Criando método para retornar um campo do formulário;
 - Criando método para criar dados (payload) para submeter pro servidor;
 - Submetendo dados do formulário.
+
+## Seção 14
+### Conclusão
+- Apresentação final.
 
 Este curso pode ser adquirido clicando [aqui](https://www.udemy.com/course/testes-unitarios-com-angular-14-jasmine-e-karma/?referralCode=8827BDAD28D3B528137A).
