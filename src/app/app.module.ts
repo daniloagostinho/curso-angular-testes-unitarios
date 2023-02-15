@@ -38,6 +38,7 @@ import { FormLoginComponent } from './form-login/form-login.component';
 import { TestingRouteComponent } from './testing-route/testing-route.component';
 import { ExtratoComponent } from './extrato/extrato.component';
 import { IntegrationUnitTestingComponent } from './integration-unit-testing/integration-unit-testing.component';
+import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { IntegrationUnitTestingComponent } from './integration-unit-testing/inte
     FormLoginComponent,
     TestingRouteComponent,
     ExtratoComponent,
-    IntegrationUnitTestingComponent
+    IntegrationUnitTestingComponent,
+    MenuDropdownComponent
   ],
   imports: [
     BrowserModule,
