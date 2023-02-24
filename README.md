@@ -32,7 +32,7 @@ a aplicação estará disponível no endereço:
  localhost:4200
 ```
 
-### Rodando aos testes
+### Rodando os testes
 
 Para visualizar os testes no navegador digite o coimando a baixo:
 
