@@ -26,7 +26,7 @@ Parar iniciar o servidor com a aplicação funcionando digite o comando a baixo:
  ng serve
 ```
 
-a aplicação estara disponível no endereço:
+a aplicação estará disponível no endereço:
 
 ```
  localhost:4200
