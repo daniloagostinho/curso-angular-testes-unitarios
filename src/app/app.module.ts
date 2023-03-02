@@ -39,6 +39,7 @@ import { TestingRouteComponent } from './testing-route/testing-route.component';
 import { ExtratoComponent } from './extrato/extrato.component';
 import { IntegrationUnitTestingComponent } from './integration-unit-testing/integration-unit-testing.component';
 import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
+import { SpyOnPropertyComponent } from './spy-on-property/spy-on-property.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { MenuDropdownComponent } from './menu-dropdown/menu-dropdown.component';
     TestingRouteComponent,
     ExtratoComponent,
     IntegrationUnitTestingComponent,
-    MenuDropdownComponent
+    MenuDropdownComponent,
+    SpyOnPropertyComponent
   ],
   imports: [
     BrowserModule,
